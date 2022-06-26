@@ -1,0 +1,4 @@
+{
+	"ois" : { "Future" : [ { "Ticker": "FFU0", "Price": 99.9075 }, { "Ticker": "FFV0", "Price": 99.915 } ], "Swap" : [ {"Start": "2020-9-1", "End": "2021-9-1", "Price": 0.123} ] } ,
+	"3m"  : { "Future" : [ { "Ticker": "EDV0", "Price": 99.7569 }, { "Ticker": "EDX0", "Price": 99.7567 } ], "Swap" : [ {"Start": "2020-9-1", "End": "2021-9-1", "Price": 0.123} ] } 
+}

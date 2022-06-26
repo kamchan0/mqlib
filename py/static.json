@@ -1,0 +1,30 @@
+[
+	{
+		"Index": "FEDFUND",
+		"Currency": "USD",
+		"Type": "O",
+		"SwapFrequency": "Q",
+		"SwapDCC": "A360",
+		"SwapBDC": "MF",
+		"SwapAccrualConvention": "ADJ",
+		"Comp": "AVG",
+		"SwapPayHolidays": "NYC",
+		"SwapSpotHolidays": "",
+		"BasisSwapInstr": "",
+		"IndexPayHolidays": "NYC",
+		"ResetHolidays": "NYC",
+		"IndexBDC": "F",
+		"IndexDCC": "A360",
+		"StandardTerm": "1B",
+		"Tenors": "1B",
+		"ResetLag": "0B",
+		"PayLag": "2B",
+		"PubishlishLag": "1B",
+		"PubishTime": "09:00 US/Eastern",
+		"PubishFrequency": "",
+		"FixingTime": "",
+		"FeedLag": "",
+		"ISDAName": "USD-FEDERAL-FUNDS-H.15",
+		"EoM": "C"
+	}
+]

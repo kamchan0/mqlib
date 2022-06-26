@@ -1,0 +1,27 @@
+#include "stdafx.h"
+#include "TYPE.h"
+#include "Data\GenericData.h"
+#include "Data\MarketData\YieldCurveCreator.h"
+
+namespace FlexYCF
+{
+    TYPE::TYPE()
+    {
+    }
+
+    void TYPE::createInstruments(CalibrationInstruments& instruments, LTQuant::GenericDataPtr instrumentTable, LTQuant::GenericDataPtr data)
+    {
+        instruments.add(new TYPE);
+    }
+    
+    const double TYPE::computeModelPrice(const BaseModelPtr) const
+    {
+        return 0.0;
+    }
+        
+    void TYPE::computeGradient(const double x, vector<double>& gradient)
+    {
+    
+    }
+
+}   // FlexYCF

@@ -1,0 +1,41 @@
+#pragma once
+
+#include "CalibrationInstruments.h"
+
+namespace FlexYCF
+{
+
+    // TO DO:   - Pricing
+    //          - Gradient
+    class TYPE : public CalibrationInstrument
+    {
+    public:
+        TYPE();
+
+        static string getName()
+        {
+            return "TYPE";
+        }
+
+        static void createInstruments(CalibrationInstruments& instruments, LTQuant::GenericDataPtr instrumentTable, LTQuant::GenericDataPtr data);
+    
+        virtual string getType() const
+        {
+            return TYPE::getName();
+        }
+
+        virtual const double getMarketPrice() const
+        {
+            return 0.0;
+        }
+
+        virtual const double computeModelPrice(const BaseModelPtr) const;
+        
+        virtual void computeGradient(const double x, vector<double>& gradient);
+        
+
+    };  //  TYPE
+    
+    DECLARE_SMART_PTRS( TYPE )
+
+}   //  FlexYCF

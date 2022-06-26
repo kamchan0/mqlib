@@ -1,0 +1,6 @@
+{
+	"FF": { "Currency": "USD", "Index": "FEDFUND" },
+	"SOFR": { "Currency": "USD", "Index": "SOFR" },
+	"SONIA": { "Currency": "USD", "Index": "SONIA" },
+} 
+
